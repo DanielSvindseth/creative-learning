@@ -5,26 +5,30 @@
  text-decoration: none;
  color: black; }
 
+body {
+  background-image: linear-gradient(#373737, #373737);
+  height: 100vh; }
+
 .header {
   height: 80px;
   display: block;
-  position: fixed;
-}
+  position: fixed; }
 
 #header {
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0 -2px 12px 0px black;
-}
+  box-shadow: 0 -2px 12px 0px black; }
 
 @media screen and (min-width: 1111px) {
   #header_2 {
     top: 0;
     right: 0;
     width: 50%;
+    padding: 0 5px;
     background-image: linear-gradient(#90cc41 0%, #80bc31 10%, #80bc31 90%, #609c11 100%);
     display: flex;
+    justify-content: flex-end;
     flex-flow: row nowrap; }
   #header_1 {
     top: 0;
@@ -32,7 +36,9 @@
     width: 50%;
     background-image: linear-gradient(#90cc41 0%, #80bc31 10%, #80bc31 90%, #609c11 100%);
     display: flex;
-    flex-flow: row nowrap; }}
+    flex-flow: row nowrap; }
+  #main {
+    margin-top: 80px; }}
 
 @media screen and (max-width: 1110px) {
   #header_2 {
@@ -41,6 +47,7 @@
     width: 100%;
     background-image: linear-gradient(#90cc41 0%, #80bc31 10%, #80bc31 90%, #609c11 100%);
     display: flex;
+    justify-content: center;
     flex-flow: row nowrap; }
   #header_1 {
     top: 0;
@@ -48,33 +55,35 @@
     width: 100%;
     background-image: linear-gradient(#90cc41 0%, #80bc31 10%, #80bc31 90%, #609c11 100%);
     display: flex;
-    flex-flow: row nowrap; }}
+    flex-flow: row nowrap; }
+  #main {
+    margin-top: 80px;
+    margin-bottom: 80px; }}
 
 
 .logo-text {
   font-size: 60px;
   color: white;
-  font-family: 'Average';
-}
+  font-family: 'Average'; }
 
 .logo-img {
   height: 70px;
-  margin: 5px;
-}
+  margin: 5px; }
 
 .footer {
   height: 80px;
   display: none;
-  position: fixed;
-}
+  position: fixed; }
 
 #footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0 -2px 12px 0px black;
-}
+  box-shadow: 0 -2px 12px 0px black; }
 
 #main {
-  margin-top: 80px;
-}
+  height: 100%; }
+
+button {
+  height: 60px;
+  margin: 10px 5px; }
