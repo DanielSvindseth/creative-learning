@@ -83,10 +83,21 @@ body {
   box-shadow: 0 -2px 12px 0px black; }
 
 #main {
-  height: 100%;
-  padding: 5px; }
+  /*height: 100%;*/
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap; }
 
 button {
   height: 60px;
   margin: 10px 5px;
   font-weight: bold; }
+
+.card {
+  height: 220px;
+  width: 340px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #f3f3f3, #c8c8c8);
+  display: block;
+  margin: 4px;
+}
