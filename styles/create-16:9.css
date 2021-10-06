@@ -176,17 +176,17 @@ p  { font-size: 16px; margin: 0; margin-top: 2px; }
 .sep-solid { height: calc(100% - 8px); width: 100%; background-color: #00000000; border-bottom: solid 1px #3333337f; z-index: -10000; }
 
 /* Button Colors */
-.btn-red    { background: linear-gradient(to bottom, #c83030, #a02020); color: #ffffff; }
-.btn-yellow { background: linear-gradient(to bottom, #fac800, #c8a000); color: #000000; }
-.btn-green  { background: linear-gradient(to bottom, #00c800, #00a000); color: #ffffff; }
-.btn-blue   { background: linear-gradient(to bottom, #0000c8, #0000a0); color: #ffffff; }
-.btn-white  { background: linear-gradient(to bottom, #f3f3f3, #c8c8c8); color: #000000; }
-.btn-black  { background: linear-gradient(to bottom, #303030, #000000); color: #ffffff; }
-.btn-gray   { background: linear-gradient(to bottom, #707070, #404040); color: #ffffff; }
+.btn-red    { background: linear-gradient(to bottom, #c83030, #a02020); color: #ffffff; } 
+.btn-yellow { background: linear-gradient(to bottom, #fac800, #c8a000); color: #000000; } 
+.btn-green  { background: linear-gradient(to bottom, #00c800, #00a000); color: #ffffff; } 
+.btn-blue   { background: linear-gradient(to bottom, #0000c8, #0000a0); color: #ffffff; } 
+.btn-white  { background: linear-gradient(to bottom, #f3f3f3, #c8c8c8); color: #000000; } 
+.btn-black  { background: linear-gradient(to bottom, #303030, #000000); color: #ffffff; } 
+.btn-gray   { background: linear-gradient(to bottom, #707070, #404040); color: #ffffff; } 
 
 
 /* Button Styles */
-button {
+button, .card {
   background-color: #ffffff;
   color: #000000;
   border: solid 0 #cccccc;
@@ -195,9 +195,9 @@ button {
   font-size: 20px;
   min-width: 60px;
   min-height: 40px; }
-button:hover {
+button:hover, .card:hover {
   filter: brightness(1.1); }
-button:active {
+button:active, .card:active {
   filter: brightness(0.8); }
 
 [type="text"] {

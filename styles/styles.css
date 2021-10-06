@@ -2,12 +2,19 @@
  margin: 0;
  padding: 0;
  border: 0;
+ outline: none;
  text-decoration: none;
  font-family: 'Average';
  color: white; }
 
+html {
+  font-family: 'Average';
+}
+
 body {
   background-image: linear-gradient(#373737, #373737);
+  background-image: url('../images/bliss.jpg');
+  background-size: cover;
   height: 100vh; }
 
 .header {
@@ -99,6 +106,7 @@ button {
   margin: 10px 5px;
   padding-left: 15px;
   padding-right: 15px;
+  backdrop-filter: blur(5px);
   font-family: 'Average Sans';
   font-weight: bold; }
 
@@ -106,10 +114,11 @@ button {
   height: 220px;
   width: 340px;
   border-radius: 4px;
-  background: linear-gradient(to bottom, #f3f3f3, #c8c8c8);
+  background: linear-gradient(to bottom, #f3f3f3a0, #c8c8c8a0);
   display: block;
   margin: 4px;
   padding: 10px;
+  backdrop-filter: blur(8px);
   font-family: 'Average Sans'; }
 
 .card * {
