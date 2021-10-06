@@ -39,7 +39,9 @@ body {
     display: flex;
     flex-flow: row nowrap; }
   #main {
-    margin-top: 80px; }}
+    padding-top: 85px; }
+  iframe {
+    height: calc(100% - 5px); }}
 
 @media screen and (max-width: 1130px) {
   #header_2 {
@@ -58,8 +60,10 @@ body {
     display: flex;
     flex-flow: row nowrap; }
   #main {
-    margin-top: 80px;
-    margin-bottom: 80px; }}
+    padding-top: 85px;
+    padding-bottom: 85px; }
+  iframe {
+    height: calc(100% - 0px); }}
 
 
 .logo-text {
@@ -84,13 +88,18 @@ body {
 
 #main {
   /*height: 100%;*/
-  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  justify-content: center; }
 
 button {
   height: 60px;
   margin: 10px 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Average Sans';
   font-weight: bold; }
 
 .card {
@@ -100,4 +109,14 @@ button {
   background: linear-gradient(to bottom, #f3f3f3, #c8c8c8);
   display: block;
   margin: 4px;
+  padding: 10px;
+  font-family: 'Average Sans'; }
+
+.card * {
+  font-family: 'Average Sans'; }
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  display: block;
 }

@@ -1,0 +1,7 @@
+.card-red    { background: linear-gradient(to bottom, #c83030, #a02020); color: #ffffff; }
+.card-yellow { background: linear-gradient(to bottom, #fac800, #c8a000); color: #000000; }
+.card-green  { background: linear-gradient(to bottom, #00c800, #00a000); color: #ffffff; }
+.card-blue   { background: linear-gradient(to bottom, #0000c8, #0000a0); color: #ffffff; }
+.card-white  { background: linear-gradient(to bottom, #f3f3f3, #c8c8c8); color: #000000; }
+.card-black  { background: linear-gradient(to bottom, #303030, #000000); color: #ffffff; }
+.card-gray   { background: linear-gradient(to bottom, #707070, #404040); color: #ffffff; }
