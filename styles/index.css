@@ -1,10 +1,10 @@
-.card-red    { background: linear-gradient(to bottom, #c83030a0, #a02020a0); color: #ffffff; } .card-red > *    { color: #ffffff; }
-.card-yellow { background: linear-gradient(to bottom, #fac800a0, #c8a000a0); color: #000000; } .card-yellow > * { color: #000000; }
-.card-green  { background: linear-gradient(to bottom, #00c800a0, #00a000a0); color: #ffffff; } .card-green > *  { color: #ffffff; }
-.card-blue   { background: linear-gradient(to bottom, #0000c8a0, #0000a0a0); color: #ffffff; } .card-blue > *   { color: #ffffff; }
-.card-white  { background: linear-gradient(to bottom, #f3f3f3a0, #c8c8c8a0); color: #000000; } .card-white > *  { color: #000000; }
-.card-black  { background: linear-gradient(to bottom, #303030a0, #000000a0); color: #ffffff; } .card-black > *  { color: #ffffff; }
-.card-gray   { background: linear-gradient(to bottom, #909090a0, #606060a0); color: #ffffff; } .card-gray > *   { color: #ffffff; }
+.card-red    { background: linear-gradient(to bottom, #c83030c0, #a02020c0); color: #ffffff; } .card-red > *    { color: #ffffff; }
+.card-yellow { background: linear-gradient(to bottom, #fac800c0, #c8a000c0); color: #000000; } .card-yellow > * { color: #000000; }
+.card-green  { background: linear-gradient(to bottom, #00c800c0, #00a000c0); color: #ffffff; } .card-green > *  { color: #ffffff; }
+.card-blue   { background: linear-gradient(to bottom, #0000c8c0, #0000a0c0); color: #ffffff; } .card-blue > *   { color: #ffffff; }
+.card-white  { background: linear-gradient(to bottom, #f3f3f3c0, #c8c8c8c0); color: #000000; } .card-white > *  { color: #000000; }
+.card-black  { background: linear-gradient(to bottom, #303030c0, #000000c0); color: #ffffff; } .card-black > *  { color: #ffffff; }
+.card-gray   { background: linear-gradient(to bottom, #909090c0, #606060c0); color: #ffffff; } .card-gray > *   { color: #ffffff; }
 
 .card {
   /*background-color: #ffffff;*/
